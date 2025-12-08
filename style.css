@@ -1,0 +1,55 @@
+body{
+   margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-align: center;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: center;
+     background-repeat: no-repeat;
+    transition: 0.5s;
+    background-attachment: fixed;
+
+  
+ }
+ h1{
+  color:white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+ }
+ 
+ .input-container{
+  
+    margin-top: 20px;
+ }
+
+.inputbox{
+  
+     padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+  
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+#weatherBox{
+   
+      margin-top: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.icon{
+   display: block;
+    margin: 0 auto;
+}
+ 
