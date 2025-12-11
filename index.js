@@ -26,10 +26,10 @@ async function getWeather() {
 
 
         if (data.cod !== 200) {
-            display.innerHTML = "City not found!";
+            result.innerHTML = "City not found!";
             return;
         }
-          let temp = data.main.temp;
+        let temp = (data.main.temp - 273.15).toFixed(1);
         let desc = data.weather[0].description;
         let weatherMain = data.weather[0].main;
         let iconCode = data.weather[0].icon;
